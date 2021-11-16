@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="CN-zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>前端导航网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="globalHeader">
+        <div class="logo">
+            <img src="../img/logo.png" alt="">
+        </div>
+        <div class="search">
+            <form class="searchForm" method="get" action="https://www.baidu.com/s">
+                <input type="text" name="wd">
+                <button class="searchButton" type="submit">
+                    <svg class="icon">
+                        <use xlink:href="#icon-search"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </header>
+    <main class="globalMain">
+        <ul>
+            <li>
+                <div class="site">
+                    <div class="initial">B</div>
+                    <div class="link">bilibili.com</div>
+                </div>
+            </li>
+            <li>
+                <div class="site">
+                    <div class="initial">J</div>
+                    <div class="link">juejin.com</div>
+                </div>
+            </li>
+            
+                <li>
+                    <div class="site">
+                        <div class="initial">S</div>
+                        <div class="link">stackoverflow.com</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="site">
+                        <div class="initial">W</div>
+                        <div class="link">wangdoc.com</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="addButton">
+                     <div class="iconWrapper">
+                        <svg class="icon">
+                            <use xlink:href="#icon-add"></use>
+                        </svg>
+                     </div>
+                        新增网站
+                    </div>
+            </li>
+        </ul>
+    </main>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//at.alicdn.com/t/font_2903706_lb9rcfm90gd.js"></script>
+    <script src="main.js"></script>
+    <img src="./imgs/logo.png">
+</body>
+</html>
